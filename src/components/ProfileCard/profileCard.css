@@ -1,0 +1,87 @@
+.profile-card-container{
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 340px;
+    height: 428px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.user-profile-section{
+    margin-bottom: 40px;
+}
+.user-image-section{
+    margin-bottom: 24px;
+}
+.user-image{
+    width: 64px;
+    height: 64px;
+}
+.user-details-section{
+    margin-bottom: 24px;
+}
+.user-name{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.user-designation{
+    margin-top: 0;
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.user-description{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact-button{
+    width: 308px;
+    height: 44px;
+    background-color: #4338CA;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+.contact-button:hover{
+    background-color: #283593;
+}
+.social-icons-section{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon-container{
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 36px;
+    height: 36px;
+}
+.social-icon-container:hover{
+    background-color: #fafafa;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+    color: #4338CA;
+}
