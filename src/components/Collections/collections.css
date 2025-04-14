@@ -1,0 +1,40 @@
+.collections-container{
+    background-color: white;
+    margin: 1rem;
+    border-radius: 6px;
+    min-height: calc(100vh - 32px);
+}
+.collection-wrapper{
+    padding: 6rem;
+}
+.collection-heading{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.collection-content-wrapper{
+    display: flex;
+    gap: 28px;
+}
+.collections-left{
+    width: 100%;
+}
+.collections-right-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 28px;
+}
+@media (max-width: 768px) {
+    .collection-wrapper{
+        padding: 1rem;
+    }
+    .collection-content-wrapper{
+        margin-bottom: 32px;
+        flex-direction: column;
+    }
+}
